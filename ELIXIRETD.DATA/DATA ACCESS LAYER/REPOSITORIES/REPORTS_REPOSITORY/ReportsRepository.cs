@@ -1774,7 +1774,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = "",
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 }).ToList();
@@ -1852,7 +1852,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.warehouse.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     //Remarks = x.receipt.Remarks,
                     Rush = ""
                 });
@@ -1891,7 +1891,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname =x.issue.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 });
@@ -1930,7 +1930,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = "",
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     //Remarks = x.borrow.Remarks,
                     Rush = ""
 
@@ -2027,7 +2027,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.borrowDetail.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 });
@@ -2068,7 +2068,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.FuelRegister.Fullname,
                     AssetTag = x.FuelRegister.Asset.AssetCode,
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 });
@@ -2220,7 +2220,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = "",
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 }).ToList();
@@ -2300,7 +2300,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.warehouse.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     //Remarks = x.receipt.Remarks,
                     Rush = ""
                 }).ToList();
@@ -2340,7 +2340,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.issue.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
 
@@ -2382,7 +2382,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = "",
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 }).ToList();
@@ -2479,7 +2479,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.borrowDetail.FullName,
                     AssetTag = "",
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 }).ToList();
@@ -2523,7 +2523,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.FullName,
                     AssetTag = x.AssetTag,
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = x.Rush
 
                 }).ToList();
@@ -2564,7 +2564,7 @@ namespace ELIXIRETD.DATA.DATA_ACCESS_LAYER.REPOSITORIES.REPORTS_REPOSITORY
                     Fullname = x.FuelRegister.Fullname,
                     AssetTag = x.FuelRegister.Asset.AssetCode,
                     CIPNo = "",
-                    Helpdesk = 0,
+                    Helpdesk = "",
                     Rush = ""
 
                 });

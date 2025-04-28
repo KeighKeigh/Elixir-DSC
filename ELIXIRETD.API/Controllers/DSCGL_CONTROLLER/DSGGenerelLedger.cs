@@ -1,4 +1,5 @@
-﻿using ELIXIRETD.DATA.DATA_ACCESS_LAYER.DTOs.REPORTS_DTO.ConsolidationDto;
+﻿using ELIXIRETD.API.Authentication;
+using ELIXIRETD.DATA.DATA_ACCESS_LAYER.DTOs.REPORTS_DTO.ConsolidationDto;
 using ELIXIRETD.DATA.DATA_ACCESS_LAYER.STORE_CONTEXT;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +7,7 @@ using System.Globalization;
 
 namespace ELIXIRETD.API.Controllers.DSCGL_CONTROLLER
 {
-    [Route("api/etd-gl"), ApiController]
+    [Route("api/dsgl-gl"), ApiController]
     [AllowAnonymous]
     public class DSGGL : ControllerBase
     {
